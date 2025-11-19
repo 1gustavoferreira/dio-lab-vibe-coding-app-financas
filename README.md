@@ -1,4 +1,4 @@
-# 💸 App de Finanças Pessoais do Venilton com Vibe Coding
+# 💸 App de Finanças Pessoais FinFinAmigo 
 
 Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding utilizando o Lovable e o Copilot Web. A proposta é criar um aplicativo de organização financeira pessoal baseado em interações em linguagem natural.
 
@@ -50,61 +50,79 @@ Gerar um plano de MVP contendo:
 
 > Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
 
-> Tentei criar uma meta chamada Reserva de Emergencia, mas ela não apareceu no componente. A impressão que tive foi que apenas o Assistente Financeiro a reconheceu, poderia verificar? Além disso, onde vejo os gráficos e extrato?
+> 
 
-> Sim (Quer que eu adicione uma tela de relatórios com gráficos e extrato detalhado das transações?)
+> 
 
 ---
 
 ## 🎯 Resultado Final
 
 Acesse o protótipo funcional no Lovable:  
-**[conversa-fin-amigo.lovable.app](https://conversa-fin-amigo.lovable.app/)**
-
-<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/88ef611d-970e-4377-918a-918714311218" />
+** https://chatty-cents-app.lovable.app/ **
+<img width="1317" height="839" alt="image" src="https://github.com/user-attachments/assets/7430db5c-6e01-45ef-bf33-573c8f2e3d9e" />
 
 ---
 
 ## 🔍 Funcionalidades do App de Organização Financeira
 
-### 1. Dashboard Financeiro
-- Exibe um panorama claro das finanças pessoais:
-  - **Receitas**: Total de ganhos registrados
-  - **Despesas**: Total de gastos
-  - **Saldo**: Diferença entre receitas e despesas
-- Interface simples e direta para facilitar a compreensão
+# 💰 FinAmigo - Organização Financeira Simplificada
 
-### 2. Assistente Financeiro
-- Personagem conversacional que interage com o usuário
-- Incentiva a conexão de contas e cartões para uma visão completa das finanças
-- Oferece suporte emocional e motivacional
+![Status do Projeto](https://img.shields.io/badge/Status-MVP%20Desenvolvido-brightgreen)
+![Design](https://img.shields.io/badge/Design-Universal-blue)
 
-### 3. Registro de Transações via Chat
-- Campo de entrada para o usuário digitar mensagens em linguagem natural
-- Permite registrar gastos e interagir com o assistente de forma fluida
+> **Nota:** Este projeto foi desenvolvido com o auxílio de IA (Lovable) focando em acessibilidade e experiência conversacional.
 
-### 4. Metas Financeiras
-- Área dedicada à criação e acompanhamento de objetivos financeiros
-- Sugestão proativa para o usuário definir metas
-- Botão de ação para adicionar novas metas
+---
 
-### 5. Relatórios Personalizados
-- Visualizações simples e adaptadas ao estilo do usuário
-- Acompanhamento de metas e progresso financeiro
+## 📖 Sobre o Projeto
 
-### 6. Design Universal
-- Interface acessível e inclusiva:
-  - Linguagem simples
-  - Navegação clara
-  - Compatibilidade com leitores de tela e comandos por voz
-  - Feedbacks visuais e auditivos para facilitar o uso
+O **FinAmigo** é uma solução de organização de finanças pessoais que busca eliminar a complexidade de planilhas e aplicativos bancários tradicionais.
+
+O objetivo principal é tornar o controle financeiro **intuitivo e acessível** para todos, utilizando **conversas em linguagem natural** (Chat) para registrar gastos e **Design Universal** para garantir que a interface seja usada sem barreiras por pessoas com diferentes níveis de familiaridade tecnológica.
+
+### 🎯 Problema Resolvido
+Muitas pessoas abandonam o controle financeiro por acharem os apps atuais complicados, cheios de formulários e com letras miúdas. O FinAmigo resolve isso com uma experiência fluida, onde o usuário diz: *"Gastei 30 reais na padaria"* e o app faz o resto.
+
+---
+
+## ✨ Funcionalidades Principais (MVP)
+
+### 1. 📊 Painel Financeiro (Dashboard)
+* **Visão Imediata:** Exibição clara de Saldo Atual, Receitas e Despesas.
+* **Cards de Resumo:** Uso estratégico de cores (Verde/Vermelho/Azul) e ícones para rápida compreensão.
+* **Transações Recentes:** Lista simplificada das últimas movimentações com categorização automática.
+
+### 2. 💬 Assistente Financeiro (Chat)
+* **Registro Natural:** Entrada de dados via chat (ex: "Almoço R$ 45,00").
+* **Feedback Instantâneo:** O assistente confirma o registro e atualiza o saldo em tempo real.
+* **Tom Amigável:** Mensagens motivacionais e educativas ("Olá! Como estão suas finanças hoje?").
+
+### 3. ♿ Design Universal & Acessibilidade
+* **Alto Contraste:** Paleta de cores pensada para legibilidade.
+* **Tipografia:** Fontes grandes e sem serifa para facilitar a leitura de valores.
+* **Navegação Mobile-First:** Barra de navegação inferior com áreas de toque grandes (44px+).
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi prototipado e desenvolvido utilizando tecnologias modernas de frontend:
+
+* **IA Generativa:** [Lovable.dev](https://lovable.dev/) (Geração de código e UI)
+* **Framework:** React
+* **Estilização:** Tailwind CSS
+* **Componentes:** Shadcn UI
+* **Ícones:** Lucide React
+
+---
 
 ---
 
 ## 🧠 Reflexão
 
 ### O que funcionou bem?  
-O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Lovable acabaram em apenas 3 interações.
+O refinamento do PRD previamente feito no Gemini ajudou muito, pois os créditos do Lovable acabaram em apenas 3 interações.
 
 ### O que não funcionou como o esperado?  
 Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interações feitas já foram de grande valia para aprender mais sobre Vibe Coding.
